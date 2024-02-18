@@ -1,0 +1,38 @@
+.emojis-container {
+  height: 200px;
+  width: 400px;
+  background-color:#343243;
+  border-radius: 15px;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.each-emoji-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.each-emoji-image{
+    height: 30px;
+    width: 30px;
+}
+
+.each-emoji-name{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color:  #ffffff;
+}
+
+.each-emoji-item{
+}
+
+.add-style-to-emoji{
+    height: 60px;
+    width: 60px;
+}
